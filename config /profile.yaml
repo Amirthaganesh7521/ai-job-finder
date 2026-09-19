@@ -1,1 +1,49 @@
+candidate:
+  experience_level:
+    - fresher
+    - entry-level
+    - internship
+    - trainee
+    - 0-1 years
 
+locations:
+  - India
+  - Remote
+
+priority_roles:
+  - SOC Analyst
+  - Security Operations Analyst
+  - Cybersecurity Analyst
+  - Blue Team Analyst
+  - Network Security Engineer
+  - Network Security Engineer Trainee
+  - NOC Engineer
+  - Network Engineer
+  - Cybersecurity Engineer
+  - SOC Intern
+  - Cybersecurity Intern
+
+preferred_skills:
+  - Networking
+  - TCP/IP
+  - DNS
+  - DHCP
+  - VLAN
+  - Routing
+  - Linux
+  - Windows
+  - SIEM
+  - Wazuh
+  - Wireshark
+  - Nmap
+  - Network Security
+  - Incident Response
+  - MITRE ATT&CK
+  - pfSense
+
+avoid_roles:
+  - Frontend Developer
+  - Backend Developer
+  - Full Stack Developer
+  - Software Developer
+  - Mobile Developer
