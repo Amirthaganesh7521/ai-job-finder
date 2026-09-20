@@ -1,5 +1,4 @@
 from telegram  import send_telegram_message
-Update telegram_test.py
 
 
 message = """🤖 AI JOB FINDER
