@@ -11,23 +11,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Check repository files
-        run: |
-          echo "Current directory:"
-          pwd
-
-          echo "Repository files:"
-          ls -la
-
-          echo "Agent directory:"
-          ls -la agent || true
-
-          echo "All Python files:"
-          find . -name "*.py" -type f
-
-          echo "Git tracked files containing telegram:"
-          git ls-files | grep -i telegram || true
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -36,6 +19,13 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+
+      - name: Check files
+        run: |
+          echo "Checking repository..."
+          ls -la
+          echo "Checking agent folder..."
+          ls -la agent
 
       - name: Send Telegram test
         env:
